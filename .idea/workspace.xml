@@ -5,25 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5ff1732-624d-44db-8418-d84296abe18b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session07.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/DemoCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ra/CRUDManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ra/Classes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ra/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ra/ICRUDManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ra/IColorAble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ra/StringCustom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ra/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ra/StudentC2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ra/StudentManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ra/WildCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bt4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bt4/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bt4/StudentManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bt4interface/IStudentManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bt4interface/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bt4interface/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bt4interface/StudentManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection/DemoCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/DemoCollection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,17 +24,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2tG84XHteMHrQSMldjJ33ZvyvDh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -57,8 +48,10 @@
     "Application.DemoCollection.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/AD/Documents/RA-MD02-JAVA/session07/src/bt4interface",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -67,6 +60,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\AD\Documents\RA-MD02-JAVA\session07\src\bt4interface" />
+      <recent name="C:\Users\AD\Documents\RA-MD02-JAVA\session07" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -83,7 +82,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1739966861552</updated>
-      <workItem from="1739966862762" duration="5218000" />
+      <workItem from="1739966862762" duration="8319000" />
+      <workItem from="1740041464464" duration="1904000" />
+      <workItem from="1740137493413" duration="6227000" />
     </task>
     <servers />
   </component>

@@ -1,9 +1,6 @@
 package collection;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 public class DemoCollection {
     public static void main(String[] args) {
@@ -50,5 +47,48 @@ public class DemoCollection {
         System.out.println(" vị tri cua gia tri 10 trong list là "+ index);
 
         // Áp dụng cu pháp làm việc với String
+
+
+        Set<String> listName = new HashSet<>(); // có phải 1 Collection, h trợ trong việc xử lý trùng lặp
+        listName.add("Hunghx");
+        listName.add("Namtx");
+        listName.add("Sonpm");
+        listName.add("DongNX");
+// Set ko cho phe trung lă giá trị, nếu cố tinình thêm vào thì sẽ không thực hiện
+
+        System.out.println(listName);
+        // ko hỗ trợ truy xuất theo vị trí
+        // Không h trợ thay đổi giá trị theo vị trí
+        // Xoa
+        listName.remove("Hunghx");
+        System.out.println(listName);
+
+        List<String> listNames = new ArrayList<>(listName);
+        // Map là nhanh khách của Collection , Lưu trữ cặp Key(ko trùng lặp) - Value
+        Map<String, String> dirctionary = new HashMap<>();
+        dirctionary.put("word", "từ vựng");
+        dirctionary.put("cat", "con mèo");
+        dirctionary.put("dog", "con chó");
+        dirctionary.put("dog", "xúc xích"); // put dùng dể thêm va cập nhat phan tử theo key
+        System.out.println(dirctionary);
+        // lấy gia tri theo key
+        System.out.println(dirctionary.get("cat"));
+        // kiểm tra tôn tai
+        System.out.println("Tư word co ton tai trong map hay ko : "+dirctionary.containsKey("word"));
+        System.out.println("Nghĩa con meo ton tai trong map hay ko : "+dirctionary.containsValue("con mèo"));
+
+        // duyệt map
+        for (String key : dirctionary.keySet()){
+            System.out.println(key+" : "+ dirctionary.get(key));
+        }
+        // dyệt value
+        for (String value: dirctionary.values()){
+            System.out.println(value);
+        }
+        // duyệt theo entry: Căp K và V
+        for (Map.Entry<String, String> entry: dirctionary.entrySet()){
+            System.out.println(entry.getKey()+" : "+ entry.getValue());
+        }
+
     }
 }
